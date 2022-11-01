@@ -1,6 +1,7 @@
 {
   "name": "jrwlab",
   "version": "0.1.0",
+  "homepage": "https://wellingtonokabayashi.github.io/jrw/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
