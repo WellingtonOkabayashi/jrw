@@ -13,9 +13,9 @@ import Contato from './components/Contato'
 
 function App() {
   return (
-    <BrowserRouter basename="/jrw">
+    <BrowserRouter basename="/">
       <Routes>
-        <Route path="/jrw" element={<Navbar />} />
+        <Route path="/" element={<Navbar />} />
         <Route path="/contato" element={<Navbar />} />
         <Route path="/translate" element={<NavTranslate />} />
         <Route path="/lab" element={<Navlab />} />
@@ -23,7 +23,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/jrw" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/translate" element={<Translate />} />
         <Route path="/lab" element={<Lab />} />
         <Route path="/dev" element={<Dev />} />
