@@ -1,8 +1,8 @@
 {
   "name": "jrw",
   "version": "0.1.0",
-  "homepage": "https://wellingtonokabayashi.github.io/jrw/",
-  "private": true,
+  "homepage": "https://wellingtonokabayashi.github.io/jrw",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
