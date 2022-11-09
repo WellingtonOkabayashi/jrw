@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Link } from 'react-router-dom'
+
 import NavTranslate from './components/NavTranslate'
 import Navlab from './components/Navlab'
 import Navdev from './components/Navdev'
@@ -13,8 +13,7 @@ import Contato from './components/Contato'
 
 function App() {
   return (
-    <BrowserRouter basename="/">
-      <Link to="/" element={<Navbar />} />
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />} />
         <Route path="/contato" element={<Navbar />} />
