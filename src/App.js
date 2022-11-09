@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import NavTranslate from './components/NavTranslate'
 import Navlab from './components/Navlab'
@@ -13,7 +13,7 @@ import Contato from './components/Contato'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navbar />} />
         <Route path="/contato" element={<Navbar />} />
@@ -29,7 +29,7 @@ function App() {
         <Route path="/dev" element={<Dev />} />
         <Route path="/contato" element={<Contato />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
