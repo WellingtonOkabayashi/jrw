@@ -1,7 +1,7 @@
 {
   "name": "jrw",
   "version": "0.1.0",
-  
+  "homepage": "https://jrw.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
