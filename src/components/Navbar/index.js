@@ -25,22 +25,18 @@ export default function Navbar() {
 
             <ul>
               <li className="link">
-                <a href="/jrw" className="menu" onClick={handleClick}>
+                <a href="/" className="menu" onClick={handleClick}>
                   Home
                 </a>
               </li>
               <li className="link">
-                <a
-                  href="#/translate"
-                  className="logomenu"
-                  onClick={handleClick}
-                >
+                <a href="/translate" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Translate</span>
                 </a>
               </li>
               <li className="link">
-                <a href="#/lab" className="logomenu" onClick={handleClick}>
+                <a href="/lab" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Lab</span>
                 </a>
