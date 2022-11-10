@@ -5,9 +5,7 @@ import Logoimg from './jrw_logo.svg'
 export default function Logomarca() {
   ;<>
     <SectionLogo>
-      <i className="log">
-        <Logoimg />
-      </i>
+      <Logoimg />
     </SectionLogo>
   </>
 }

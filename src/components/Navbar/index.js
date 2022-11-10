@@ -28,7 +28,7 @@ export default function Navbar() {
 
             <ul>
               <li className="link">
-                <a href="/#/" className="menu" onClick={handleClick}>
+                <a href="/jrw/#/" className="menu" onClick={handleClick}>
                   Home
                 </a>
               </li>
@@ -50,7 +50,7 @@ export default function Navbar() {
               </li>
               <li className="link">
                 <a href="/jrw/#/dev" className="logomenu" onClick={handleClick}>
-                  {process.env.REACT_APP_NAME_LOGO || 'not available'}
+                  {Logo}
                   <span>Dev</span>
                 </a>
               </li>
