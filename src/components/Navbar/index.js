@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Nav } from './style'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { ReactSVG } from 'react-svg'
+import Logomarca from '../Logo'
+
 export default function Navbar() {
   const [click, setClick] = useState(false)
 
@@ -16,8 +18,9 @@ export default function Navbar() {
         >
           <div className="header-align">
             <div className="logo">
+              <Logomarca />
               <i className="log">
-                <ReactSVG src="jrw_logo.svg" />
+                <ReactSVG src="../public/jrw_logo.svg" />
               </i>
               {/* {Logo} */}
               <span>Services</span>
@@ -25,13 +28,13 @@ export default function Navbar() {
 
             <ul>
               <li className="link">
-                <a href="/jrw" className="menu" onClick={handleClick}>
+                <a href="/#/" className="menu" onClick={handleClick}>
                   Home
                 </a>
               </li>
               <li className="link">
                 <a
-                  href="/jrw/#/translate"
+                  href="/#/translate"
                   className="logomenu"
                   onClick={handleClick}
                 >
@@ -40,20 +43,20 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="link">
-                <a href="/jrw/#/lab" className="logomenu" onClick={handleClick}>
+                <a href="/#/lab" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Lab</span>
                 </a>
               </li>
               <li className="link">
-                <a href="/jrw/#/dev" className="logomenu" onClick={handleClick}>
+                <a href="/#/dev" className="logomenu" onClick={handleClick}>
                   {process.env.REACT_APP_NAME_LOGO || 'not available'}
                   <span>Dev</span>
                 </a>
               </li>
 
               <li className="link">
-                <a href="/jrw/#/contato" className="menu" onClick={handleClick}>
+                <a href="/#/contato" className="menu" onClick={handleClick}>
                   Contato
                 </a>
               </li>
