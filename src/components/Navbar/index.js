@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="logo">
               <Logomarca />
               <i className="log">
-                <ReactSVG src="../public/jrw_logo.svg" />
+                <ReactSVG src="jrw_logo.svg" />
               </i>
               {/* {Logo} */}
               <span>Services</span>
@@ -34,7 +34,7 @@ export default function Navbar() {
               </li>
               <li className="link">
                 <a
-                  href="/#/translate"
+                  href="/jrw/#/translate"
                   className="logomenu"
                   onClick={handleClick}
                 >
@@ -43,20 +43,20 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="link">
-                <a href="/#/lab" className="logomenu" onClick={handleClick}>
+                <a href="/jrw/#/lab" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Lab</span>
                 </a>
               </li>
               <li className="link">
-                <a href="/#/dev" className="logomenu" onClick={handleClick}>
+                <a href="/jrw/#/dev" className="logomenu" onClick={handleClick}>
                   {process.env.REACT_APP_NAME_LOGO || 'not available'}
                   <span>Dev</span>
                 </a>
               </li>
 
               <li className="link">
-                <a href="/#/contato" className="menu" onClick={handleClick}>
+                <a href="/jrw/#/contato" className="menu" onClick={handleClick}>
                   Contato
                 </a>
               </li>
