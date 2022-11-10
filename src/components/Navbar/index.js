@@ -30,11 +30,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="link">
-                <a
-                  href="jrw/#/translate"
-                  className="logomenu"
-                  onClick={handleClick}
-                >
+                <a href="/translate" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Translate</span>
                 </a>
