@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter basename="/jrw">
       <Routes>
-        <Route path="/jrw" element={<Navbar />} />
+        <Route path="/" element={<Navbar />} />
         <Route path="/jrw/contato" element={<Navbar />} />
         <Route path="/jrw/translate" element={<NavTranslate />} />
         <Route path="/jrw/lab" element={<Navlab />} />
@@ -23,7 +23,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/jrw" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/jrw/translate" element={<Translate />} />
         <Route path="/jrw/lab" element={<Lab />} />
         <Route path="/jrw/dev" element={<Dev />} />
