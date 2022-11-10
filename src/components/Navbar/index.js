@@ -31,7 +31,7 @@ export default function Navbar() {
               </li>
               <li className="link">
                 <a
-                  href="/#/translate"
+                  href="/jrw/#/translate"
                   className="logomenu"
                   onClick={handleClick}
                 >
