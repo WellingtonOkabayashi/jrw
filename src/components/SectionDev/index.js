@@ -16,7 +16,7 @@ function Dev() {
           <p>
             <br></br>
             Bem vindo a
-            <a href="/dev">
+            <a href="/jrw/#/dev">
               {Logo}
               <span id="span">Dev</span>
             </a>
@@ -25,7 +25,7 @@ function Dev() {
             <br></br>
           </p>
           <div className="imagem">
-            <a href="/dev">
+            <a href="/jrw/#/dev">
               <img src={devimg} alt="computador" />
             </a>
           </div>
@@ -66,7 +66,7 @@ function Dev() {
 
           <button>
             {' '}
-            <a href="/contato">Entrar em Contato</a>
+            <a href="/jrw/#/contato">Entrar em Contato</a>
           </button>
         </section>
 

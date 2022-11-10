@@ -43,7 +43,7 @@ function Lab() {
               <br></br>
               Bem vindo a
               <h5>
-                <a href="/lab">
+                <a href="/jrw/#/lab">
                   {Logo}
                   <span id="span">Lab</span>
                 </a>
@@ -218,11 +218,11 @@ function Lab() {
             </List>
             <button className="button">
               {' '}
-              <a href="/contato">Entrar em Contato</a>
+              <a href="/jrw/#/contato">Entrar em Contato</a>
             </button>
           </div>
           <div className="imagem">
-            <a href="/lab">
+            <a href="/jrw/#/lab">
               <img src={labimg} alt="computador" />
             </a>
           </div>
