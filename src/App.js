@@ -13,7 +13,7 @@ import Contato from './components/Contato'
 
 function App() {
   return (
-    <BrowserRouter basename="/jrw">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />} />
         <Route path="/jrw/contato" element={<Navbar />} />
