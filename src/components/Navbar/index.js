@@ -40,20 +40,20 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="link">
-                <a href="/#/lab" className="logomenu" onClick={handleClick}>
+                <a href="/jrw/#/lab" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Lab</span>
                 </a>
               </li>
               <li className="link">
-                <a href="/#/dev" className="logomenu" onClick={handleClick}>
+                <a href="/jrw/#/dev" className="logomenu" onClick={handleClick}>
                   {process.env.REACT_APP_NAME_LOGO || 'not available'}
                   <span>Dev</span>
                 </a>
               </li>
 
               <li className="link">
-                <a href="/#/contato" className="menu" onClick={handleClick}>
+                <a href="/jrw/#/contato" className="menu" onClick={handleClick}>
                   Contato
                 </a>
               </li>

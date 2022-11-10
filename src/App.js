@@ -16,18 +16,18 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/jrw" element={<Navbar />} />
-        <Route path="/contato" element={<Navbar />} />
-        <Route path="/translate" element={<NavTranslate />} />
-        <Route path="/lab" element={<Navlab />} />
-        <Route path="/dev" element={<Navdev />} />
+        <Route path="/jrw/#/contato" element={<Navbar />} />
+        <Route path="/jrw/#/translate" element={<NavTranslate />} />
+        <Route path="/jrw/#/lab" element={<Navlab />} />
+        <Route path="/jrw/#/dev" element={<Navdev />} />
       </Routes>
 
       <Routes>
         <Route path="/jrw" element={<Home />} />
-        <Route path="/translate" element={<Translate />} />
-        <Route path="/lab" element={<Lab />} />
-        <Route path="/dev" element={<Dev />} />
-        <Route path="/contato" element={<Contato />} />
+        <Route path="/jrw/#/translate" element={<Translate />} />
+        <Route path="/jrw/#/lab" element={<Lab />} />
+        <Route path="/jrw/#/dev" element={<Dev />} />
+        <Route path="/jrw/#/contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
   )
