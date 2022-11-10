@@ -10,7 +10,7 @@ import Select from '@mui/material/Select'
 import Button from '@mui/material/Button'
 
 export default function Contato() {
-  const URL = 'http://localhost:3000'
+  const URL = 'https://wellingtonokabayashi.github.io/jrw/#/'
   //
 
   const [assunto, setAssunto] = React.useState('')
