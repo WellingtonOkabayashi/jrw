@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Nav } from './style'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { ReactSVG } from 'react-svg'
-import Logomarca from '../Logo'
 
 export default function Navbar() {
   const [click, setClick] = useState(false)
@@ -18,7 +17,6 @@ export default function Navbar() {
         >
           <div className="header-align">
             <div className="logo">
-              <Logomarca />
               <i className="log">
                 <ReactSVG src="jrw_logo.svg" />
               </i>
