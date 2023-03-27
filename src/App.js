@@ -10,6 +10,7 @@ import Dev from './components/SectionDev'
 import Navbar from './components/Navbar'
 import Translate from './components/SectionTranslate'
 import Contato from './components/Contato'
+import Certificado from './components/Certificados/cert1'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/lab" element={<Lab />} />
         <Route path="/dev" element={<Dev />} />
         <Route path="/contato" element={<Contato />} />
+        <Route path="/certificado1" element={<Certificado />} />
       </Routes>
     </HashRouter>
   )

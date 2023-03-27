@@ -4,6 +4,7 @@ export const SectionDev = styled.div`
   font-size: 16px;
   padding-top: 100px;
   margin: 0 10%;
+
   span {
     font-weight: 800;
   }
@@ -32,7 +33,20 @@ export const SectionDev = styled.div`
     padding-top: 10px;
     text-align: justify;
   }
-
+  .certificates {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 30px;
+    margin: 30px 0;
+    justify-items: center;
+  }
+  .certificates img {
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid var(--base-color);
+    max-width: 350px;
+  }
   #span {
     color: var(--base-color);
   }
@@ -58,7 +72,7 @@ export const SectionDev = styled.div`
 
     transform: rotate(225deg);
   }
-  button {
+  .btn {
     justify-self: center;
     margin-top: 20px;
     width: 200px;
@@ -72,7 +86,7 @@ export const SectionDev = styled.div`
     color: white;
     transition: 0.8s;
   }
-  button:hover {
+  .btn:hover {
     font-size: 18px;
     width: 225px;
   }
@@ -127,6 +141,12 @@ export const SectionDev = styled.div`
     text-align: center;
   }
   @media (min-width: 1000px) {
+    .certificates {
+      grid-auto-flow: column;
+    }
+    .certificates img {
+      width: 100%;
+    }
     #content {
       width: 100%;
       display: grid;
@@ -168,7 +188,7 @@ export const SectionDev = styled.div`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100px;
+
       font-size: 50px;
       color: var(--base-color);
     }
@@ -195,6 +215,12 @@ export const SectionDev = styled.div`
     }
   }
   @media (min-width: 800px) {
+    .certificates {
+      grid-auto-flow: column;
+    }
+    .certificates img {
+      width: 100%;
+    }
     #sobremin {
       width: 100%;
       border-right: 4px solid var(--base-color-second);

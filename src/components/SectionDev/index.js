@@ -6,9 +6,32 @@ import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3 } from 'react-icons/fa'
 import { FaJsSquare } from 'react-icons/fa'
 import { FaReact } from 'react-icons/fa'
+import certificateone from '../assets/conectar.png'
+import certificatetwo from '../assets/fundamentar.png'
+import certificatetre from '../assets/especializar.png'
+import Box from '@mui/material/Box'
+import Conectar from '../Certificados/cert1.js'
+import Fundamentar from '../Certificados/fundamentar.js'
+import Especializar from '../Certificados/especializar.js'
+
+import Modal from '@mui/material/Modal'
 
 function Dev() {
   const Logo = process.env.REACT_APP_NAME_LOGO || 'not available'
+  const style = {
+    width: 500,
+    margin: '0 auto'
+  }
+  const [open, setOpen] = React.useState(false)
+  const [openSecond, setOpenSecond] = React.useState(false)
+  const [openTernary, setOpenTernary] = React.useState(false)
+  const handleOpen = () => setOpen(true)
+  const handleOpenSecond = () => setOpenSecond(true)
+  const handleOpenTernary = () => setOpenTernary(true)
+  const handleClose = () => setOpen(false)
+  const handleCloseSecond = () => setOpenSecond(false)
+  const handleCloseTernary = () => setOpenTernary(false)
+
   return (
     <>
       <SectionDev>
@@ -62,9 +85,63 @@ function Dev() {
                 <FaReact />
               </div>
             </div>
+            <h5>Certificados</h5>
+            <div className="certificates">
+              <div className="box">
+                <img
+                  onClick={handleOpen}
+                  src={certificateone}
+                  alt="certificado conectar"
+                />
+                <Modal
+                  open={open}
+                  onClose={handleClose}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Conectar />
+                  </Box>
+                </Modal>
+              </div>
+              <div className="box">
+                <img
+                  onClick={handleOpenSecond}
+                  src={certificatetwo}
+                  alt="certificado fundamentar"
+                />
+                <Modal
+                  open={openSecond}
+                  onClose={handleCloseSecond}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Fundamentar />
+                  </Box>
+                </Modal>
+              </div>
+              <div className="box">
+                <img
+                  onClick={handleOpenTernary}
+                  src={certificatetre}
+                  alt="certtificado especializar"
+                />
+                <Modal
+                  open={openTernary}
+                  onClose={handleCloseTernary}
+                  aria-labelledby="modal-modal-title"
+                  aria-describedby="modal-modal-description"
+                >
+                  <Box sx={style}>
+                    <Especializar />
+                  </Box>
+                </Modal>
+              </div>
+            </div>
           </div>
 
-          <button>
+          <button className="btn">
             {' '}
             <a href="/jrw/#/contato">Entrar em Contato</a>
           </button>

@@ -17,7 +17,6 @@ function Lab() {
   const [openSecond, setOpenSecond] = React.useState(false)
   const [openPrimary, setOpenPrimary] = React.useState(false)
   const [openTernary, setOpenTernary] = React.useState(false)
-  const [openFor, setOpenFor] = React.useState(false)
 
   const handleClickPrimary = () => {
     setOpenPrimary(!openPrimary)
@@ -27,9 +26,6 @@ function Lab() {
   }
   const handleClickTernary = () => {
     setOpenTernary(!openTernary)
-  }
-  const handleClickFor = () => {
-    setOpenFor(!openFor)
   }
 
   const Logo = process.env.REACT_APP_NAME_LOGO || 'not available'
@@ -134,6 +130,17 @@ function Lab() {
                       primary="Windows 10"
                     />
                   </ListItemButton>
+
+                  <ListItemButton sx={{ pl: 4 }}>
+                    <ListItemIcon>
+                      <ArticleIcon sx={{ color: 'var(--base-color)' }} />
+                    </ListItemIcon>
+                    <ListItemText
+                      sx={{ color: 'black' }}
+                      primary="Windows 11"
+                    />
+                  </ListItemButton>
+
                   <ListItemButton sx={{ pl: 4 }}>
                     <ListItemIcon>
                       <ArticleIcon sx={{ color: 'var(--base-color)' }} />
@@ -186,36 +193,6 @@ function Lab() {
               </Collapse>
             </List>
 
-            <List
-              sx={{
-                width: '100%',
-                maxWidth: 650,
-                bgcolor: 'background.paper'
-              }}
-              component="nav"
-              aria-labelledby="nested-list-subheader"
-            >
-              <ListItemButton onClick={handleClickFor}>
-                <ListItemIcon>
-                  <InboxIcon sx={{ color: 'var(--base-color)' }} />
-                </ListItemIcon>
-                <ListItemText className="titulo" primary="Loja" />
-                {openFor ? <ExpandLess /> : <ExpandMore />}
-              </ListItemButton>
-              <Collapse in={openFor} timeout="auto" unmountOnExit>
-                <List component="div" disablePadding>
-                  <ListItemButton sx={{ pl: 4 }}>
-                    <ListItemIcon>
-                      <ArticleIcon sx={{ color: 'var(--base-color)' }} />
-                    </ListItemIcon>
-                    <ListItemText
-                      sx={{ color: 'black' }}
-                      primary="Em Construção aguarde .."
-                    />
-                  </ListItemButton>
-                </List>
-              </Collapse>
-            </List>
             <button className="button">
               {' '}
               <a href="/jrw/#/contato">Entrar em Contato</a>
