@@ -1,7 +1,7 @@
 {
   "name": "jrw",
   "version": "0.1.0",
-  "homepage": "/jrw",
+  "homepage": "/jrwservice",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
