@@ -127,7 +127,7 @@ function Lab() {
                     </ListItemIcon>
                     <ListItemText
                       sx={{ color: 'black' }}
-                      primary="Windows 10"
+                      primary="Windows 10 ."
                     />
                   </ListItemButton>
 
@@ -137,7 +137,7 @@ function Lab() {
                     </ListItemIcon>
                     <ListItemText
                       sx={{ color: 'black' }}
-                      primary="Windows 11"
+                      primary="Windows 11 ."
                     />
                   </ListItemButton>
 
