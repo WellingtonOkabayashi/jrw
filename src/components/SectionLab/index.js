@@ -145,7 +145,7 @@ function Lab() {
                     <ListItemIcon>
                       <ArticleIcon sx={{ color: 'var(--base-color)' }} />
                     </ListItemIcon>
-                    <ListItemText primary="etc ..." />
+                    <ListItemText primary="etc..." />
                   </ListItemButton>
                 </List>
               </Collapse>
