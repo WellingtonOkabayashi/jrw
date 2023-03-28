@@ -24,7 +24,7 @@ function Service() {
               </p>
             </div>
             Aqui você encontra a
-            <a href="/jrw/#/lab">
+            <a href="/#/lab">
               {Logo}
               <span>Lab</span>
             </a>
@@ -33,7 +33,7 @@ function Service() {
           </p>
 
           <div className="imagem">
-            <a href="/jrw/#/lab">
+            <a href="/#/lab">
               <img src={labimg} alt="componentes de computador" />
             </a>
           </div>
@@ -44,7 +44,7 @@ function Service() {
         <div className="jwrdev">
           <p>
             E também encontra a
-            <a href="/jrw/#/dev">
+            <a href="/#/dev">
               {Logo}
               <span>Dev</span>
             </a>
@@ -52,7 +52,7 @@ function Service() {
             ..
           </p>
           <div className="imagem">
-            <a href="/jrw/#/dev">
+            <a href="/#/dev">
               <img src={devimg} alt="computador" />
             </a>
           </div>
@@ -63,7 +63,7 @@ function Service() {
         <div className="jwrtranslate">
           <p>
             Também encontra a
-            <a href="/jrw/#/translate">
+            <a href="/#/translate">
               {Logo}
               <span>Translate</span>
             </a>
@@ -71,7 +71,7 @@ function Service() {
             , Certidão de Casamento , etc ...
           </p>
           <div className="imagem">
-            <a href="/jrw/#/translate">
+            <a href="/#/translate">
               <img src={serviceimg} alt="computador" />
             </a>
           </div>
