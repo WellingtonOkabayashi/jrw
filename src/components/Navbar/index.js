@@ -26,13 +26,13 @@ export default function Navbar() {
 
             <ul>
               <li className="link">
-                <a href="/jrw/#/" className="menu" onClick={handleClick}>
+                <a href="/" className="menu" onClick={handleClick}>
                   Home
                 </a>
               </li>
               <li className="link">
                 <a
-                  href="/jrw/#/translate"
+                  href="/#/translate"
                   className="logomenu"
                   onClick={handleClick}
                 >
@@ -41,20 +41,20 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="link">
-                <a href="/jrw/#/lab" className="logomenu" onClick={handleClick}>
+                <a href="/#/lab" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Lab</span>
                 </a>
               </li>
               <li className="link">
-                <a href="/jrw/#/dev" className="logomenu" onClick={handleClick}>
+                <a href="/#/dev" className="logomenu" onClick={handleClick}>
                   {Logo}
                   <span>Dev</span>
                 </a>
               </li>
 
               <li className="link">
-                <a href="/jrw/#/contato" className="menu" onClick={handleClick}>
+                <a href="/#/contato" className="menu" onClick={handleClick}>
                   Contato
                 </a>
               </li>
