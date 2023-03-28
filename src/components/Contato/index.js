@@ -10,7 +10,7 @@ import Select from '@mui/material/Select'
 import Button from '@mui/material/Button'
 
 export default function Contato() {
-  const URL = 'https://wellingtonokabayashi.github.io/jrw/#/'
+  const URL = 'https://jrwlab.netlify.app/'
   //
 
   const [assunto, setAssunto] = React.useState('')

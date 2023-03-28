@@ -27,7 +27,7 @@ function Translate() {
           <p>
             <br></br>
             Bem vindo a
-            <a href="/jrw/#/">
+            <a href="/">
               {Logo}
               <span id="span">Translate</span>
             </a>
@@ -85,11 +85,11 @@ function Translate() {
           </p>
           <button>
             {' '}
-            <a href="/jrw/#/contato">Entrar em Contato</a>
+            <a href="/#/contato">Entrar em Contato</a>
           </button>
 
           <div className="imagem">
-            <a href="/jrw/#/translate">
+            <a href="/#/translate">
               <img src={serviceimg} alt="computador" />
             </a>
           </div>

@@ -39,7 +39,7 @@ function Dev() {
           <p>
             <br></br>
             Bem vindo a
-            <a href="/jrw/#/dev">
+            <a href="/#/dev">
               {Logo}
               <span id="span">Dev</span>
             </a>
@@ -48,7 +48,7 @@ function Dev() {
             <br></br>
           </p>
           <div className="imagem">
-            <a href="/jrw/#/dev">
+            <a href="/#/dev">
               <img src={devimg} alt="computador" />
             </a>
           </div>
@@ -143,7 +143,7 @@ function Dev() {
 
           <button className="btn">
             {' '}
-            <a href="/jrw/#/contato">Entrar em Contato</a>
+            <a href="/#/contato">Entrar em Contato</a>
           </button>
         </section>
 
