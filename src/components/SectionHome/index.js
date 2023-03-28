@@ -17,7 +17,7 @@ function Service() {
             <div className="title">
               <p>
                 Bem vindo a{' '}
-                <a href="/jrw/#/">
+                <a href="/">
                   {Logo}
                   <span>Services</span>
                 </a>
