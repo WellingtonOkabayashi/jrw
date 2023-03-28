@@ -120,5 +120,9 @@ export const StyleContato = styled.div`
     #contato button {
       color: white;
     }
+    .contact-email button {
+      margin: 0;
+      margin-top: 10px;
+    }
   }
 `
