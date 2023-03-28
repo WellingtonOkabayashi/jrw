@@ -87,10 +87,19 @@ export const StyleContato = styled.div`
   }
   #contato .contact-email {
     text-align: center;
+    justify-content: space-around;
   }
-  #contato form {
-    margin: auto;
+  #contato .contact-email a {
+    color: var(--base-color);
+    cursor: pointer;
   }
+  #contato .contact-email p {
+    color: black;
+  }
+  .whatsapp {
+    align-self: center;
+  }
+
   //
 
   //

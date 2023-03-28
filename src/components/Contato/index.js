@@ -6,6 +6,7 @@ import InputLabel from '@mui/material/InputLabel'
 import MenuItem from '@mui/material/MenuItem'
 import FormControl from '@mui/material/FormControl'
 import Select from '@mui/material/Select'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 import Button from '@mui/material/Button'
 
@@ -32,6 +33,10 @@ export default function Contato() {
                   Caso queira solicitar alguma consulta ou tenha alguma duvida
                   ,fique a vontade para entrar em contato responderei assim que
                   possível.
+                </p>
+                <p>
+                  Sinta-se a vontade para entrar em contato, por Email ou por
+                  WhatsApp .
                 </p>
                 <div className="contact-email">
                   <form
@@ -89,6 +94,14 @@ export default function Contato() {
 
                     <Button type="submit">Enviar</Button>
                   </form>
+                  <a
+                    href="https://web.whatsapp.com/send?phone=818036454780"
+                    target="blank"
+                    className="whatsapp"
+                  >
+                    <p>Clique aqui para entrar em contato pelo WhatsApp</p>
+                    <WhatsAppIcon sx={{ fontSize: 150 }} />
+                  </a>
                 </div>
               </div>
             </div>
