@@ -31,7 +31,7 @@ export const SectionLab = styled.div`
     padding-bottom: 50px;
   }
   #content p {
-    padding-top: 10px;
+    padding-top: 30px;
     text-align: justify;
   }
 
@@ -40,7 +40,7 @@ export const SectionLab = styled.div`
   }
   .imagem {
     width: 350px;
-    margin: 70px 0 0px;
+
     position: relative;
   }
   img {
