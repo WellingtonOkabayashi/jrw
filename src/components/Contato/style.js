@@ -43,7 +43,7 @@ export const StyleContato = styled.div`
   }
   .contact-email input {
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0;
+    margin: 10px 0;
     display: block;
     padding: 10px;
     width: 300px;
@@ -61,7 +61,7 @@ export const StyleContato = styled.div`
   }
   .contact-email button {
     width: 200px;
-
+    justify-self: center;
     padding: 10px;
     margin-top: 20px;
     background: var(--base-color);
@@ -72,7 +72,7 @@ export const StyleContato = styled.div`
     cursor: pointer;
     color: white;
     transition: 0.8s;
-    margin-bottom: 30px;
+    margin-bottom: 90px;
   }
   .contact-email button:hover {
     font-size: 18px;
@@ -88,6 +88,7 @@ export const StyleContato = styled.div`
   #contato .contact-email {
     text-align: center;
     justify-content: space-around;
+    display: block;
   }
   #contato .contact-email a {
     color: var(--base-color);
@@ -95,6 +96,11 @@ export const StyleContato = styled.div`
   }
   #contato .contact-email p {
     color: black;
+  }
+  .form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
   }
   .whatsapp {
     align-self: center;
@@ -108,7 +114,9 @@ export const StyleContato = styled.div`
       display: block;
       text-align: justify;
     }
-
+    #contato .contact-email {
+      display: flex;
+    }
     #contato button {
       color: white;
     }

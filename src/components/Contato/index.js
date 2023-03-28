@@ -40,6 +40,7 @@ export default function Contato() {
                 </p>
                 <div className="contact-email">
                   <form
+                    className="form"
                     action="https://formsubmit.co/okabayashiwellington@gmail.com"
                     method="POST"
                   >
@@ -61,7 +62,8 @@ export default function Contato() {
                     <Box
                       id="box"
                       sx={{
-                        minWidth: 120
+                        minWidth: 120,
+                        maxWidth: 300
                       }}
                     >
                       <FormControl fullWidth>
@@ -95,12 +97,12 @@ export default function Contato() {
                     <Button type="submit">Enviar</Button>
                   </form>
                   <a
-                    href="https://web.whatsapp.com/send?phone=818036454780"
+                    href="https://wa.me/818036454780"
                     target="blank"
                     className="whatsapp"
                   >
-                    <p>Clique aqui para entrar em contato pelo WhatsApp</p>
                     <WhatsAppIcon sx={{ fontSize: 150 }} />
+                    <p>Clique aqui para entrar em contato pelo WhatsApp</p>
                   </a>
                 </div>
               </div>
