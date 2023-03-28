@@ -117,6 +117,9 @@ export const StyleContato = styled.div`
     #contato .contact-email {
       display: flex;
     }
+    .contact-email a {
+      max-width: 300px;
+    }
     #contato button {
       color: white;
     }
