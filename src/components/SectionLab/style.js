@@ -6,6 +6,7 @@ export const SectionLab = styled.div`
   margin: 0 10%;
   .container {
     text-align: center;
+    margin-bottom: 60px;
   }
   span {
     font-weight: 800;
