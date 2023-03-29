@@ -31,6 +31,7 @@ export const SectionTranslate = styled.div`
     width: 100%;
     padding-top: 10px;
     text-align: justify;
+    max-width: 400px;
   }
 
   #span {

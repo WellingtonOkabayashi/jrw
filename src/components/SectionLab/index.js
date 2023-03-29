@@ -48,6 +48,10 @@ function Lab() {
               venda de peças para computadores . .<br></br>
               <br></br>
             </p>
+            <p className="obs">
+              * obs: Para Manutenção, Instalação e Montagem de computadores
+              envie uma mensagem e especifique sua localidade ! (Apenas Japão) *
+            </p>
             <List
               sx={{
                 width: '100%',

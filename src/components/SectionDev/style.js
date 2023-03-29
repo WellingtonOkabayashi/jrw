@@ -230,5 +230,10 @@ export const SectionDev = styled.div`
       width: 100%;
       padding: 0 10px;
     }
+    @media (max-width: 1000px) {
+      #content p {
+        text-align: center;
+      }
+    }
   }
 `

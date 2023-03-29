@@ -7,7 +7,9 @@ export const SectionLab = styled.div`
   .container {
     text-align: center;
     margin-bottom: 60px;
+    max-width: 400px;
   }
+
   span {
     font-weight: 800;
   }
@@ -82,6 +84,12 @@ export const SectionLab = styled.div`
   }
   button a {
     color: white;
+  }
+  .obs {
+    color: red;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 30px;
   }
   @media (min-width: 1000px) {
     section #content {
